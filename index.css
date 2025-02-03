@@ -1,0 +1,203 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: white;
+    border-bottom: 1px solid rgb(64, 64, 64);
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a.marcado {
+    font-weight: bold;
+    border: 1px solid rgb(103, 103, 103);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Producto */
+.producto {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imagen {
+    width: 600px;
+    border-radius: 10px;
+}
+
+.compra {
+    padding: 20px;
+    flex: 1;
+    font-size: 25px;
+}
+
+.oferta {
+    color: red;
+    font-weight: bold;
+}
+
+.precio {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.comprar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.preciocomprar {
+    display: flex;
+    justify-content: space-between;
+    width: 18%;
+}
+
+.opciones {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.opciones span {
+    display: flex;
+    margin: 5px 0;
+    
+}
+
+/* Accesorios */
+.Accesorios {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+h1 .tituloaccesorios {
+    margin: 15px;
+}
+
+.Accesorios div {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid rgb(198, 198, 198);
+    width: 25%;
+}
+
+.Accesorios img {
+    width: 300px;
+    height: 300px;
+}
+
+.oferta {
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.oferta1 {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.nuevo {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.giveaway {
+background-color:rgb(187, 236, 255);
+display: flex;
+padding: 20px;
+margin: 20px;
+border-radius: 10px;
+width: 96%;
+}
+
+.participa {
+font-size: 20px;
+width: 65%;
+}
+
+.participa h2 {
+    font-size: 60px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+form input {
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 25px;
+    font-size: 24px;
+    font-weight: bold;
+}
